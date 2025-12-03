@@ -38,7 +38,7 @@ public class AccountWithSync {
                 Thread.sleep(5);
 
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                // An exception s
             }
             balance = newBalance;
             System.out.println("Added deposit: " + balance);
